@@ -9,5 +9,3 @@ I love you seventh
 I love you eighth
 =======
 >>>>>>> parent of fd216ff... sixth commit
- This is ningth commit
-hello
