@@ -1,4 +1,4 @@
-package Integration.Integrationtest;
+package runners;
 
 
 
@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
         features= { "src/test/java/demo.feature" },
         		 format={"pretty","html:target/Reports"}
 		)
-public class RunnerClass {
+public class TestRunner {
 	
 	
 	

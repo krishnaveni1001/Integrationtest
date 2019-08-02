@@ -1,4 +1,4 @@
-package Integration.Integrationtest;
+package runners;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
