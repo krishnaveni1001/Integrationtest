@@ -15,7 +15,8 @@ import cucumber.api.junit.Cucumber;
                 "json:target/testresult/cucumber.json","pretty:target/cucumber-pretty.txt",
                 "junit:target/cucumber-results.xml"},
 				
-        features= { "src/test/java/demo.feature" },
+        features= { "src/test/resources/functionalTests" },
+           glue= {"stepDefinitions"},
         		 format={"pretty","html:target/Reports"}
 		)
 public class TestRunner {
